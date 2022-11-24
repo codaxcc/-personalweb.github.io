@@ -96,6 +96,7 @@
 }
 .disappear{
   visibility: hidden;
+	transition: .1s;
    
   
    
