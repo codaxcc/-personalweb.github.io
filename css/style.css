@@ -68,47 +68,6 @@
         --smaller-font-size: .813rem;
     }
 }
-/*========== Loader ==========*/
-
-.preloader{
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background:  #fff;
-	z-index: 9999;
-	text-align: center;
-}
-
-.loader{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 200px;
-	height: 200px;
-	display: flex;
-	flex-flow: column nowrap;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-  
-  
-}
-.disappear{
-  visibility: hidden;
-	transition: .1s;
-   
-  
-   
-   
-}
-@keyframes vanish{
-  100%{
-    opacity: 0;
-    visibility: hidden;
-  }
-}
- 
  
 
 /*========== Variables Dark theme ==========*/
