@@ -1,12 +1,4 @@
-   /*==================== Loader ====================*/
-   var loader =document.querySelector(".preloader")
-  
-   window.addEventListener("load", vanish);
  
-   function vanish(){
-     loader.classList.add("disappear")
-   }
-  
   
   /*==================== MENU SHOW Y HIDDEN ====================*/
  const navMenu= document.getElementById('nav-menu'),
