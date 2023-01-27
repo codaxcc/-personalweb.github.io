@@ -593,61 +593,7 @@ img {
   justify-self: center;
  }
 
-/*==================== PORTFOLIO ====================*/
  
-
-.gallery .controls{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding:20px 0;
-  list-style: none;
-}
-
-.gallery .controls .buttons{
-  height:40px;
-  width: 140px;
-  background:#fff;
-  color:#666;
-  font-size: 20px;
-  line-height: 40px;
-  cursor: pointer;
-  margin:20px;
-  box-shadow: 0 3px 5px rgba(0,0,0,.3);
-  text-align: center;
-}
-
-.gallery .controls .buttons.active{
-  background: var(--first-color);
-  color:#fff;
-}
-
-.gallery .image-container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.gallery .image-container .image{
-  height:170px;
-  width: 250px;
-  overflow: hidden;
-  border:15px solid #fff;
-  box-shadow: 0 3px 5px rgba(0,0,0,.3);
-  margin: 10px;
-}
-
-.gallery .image-container .image img{
-  height: 100%;
-  width:100%;
-  object-fit: cover;
-}
-
-.gallery .image-container .image:hover img{
-  transform: scale(1.4);
-}
  /*==================== SERVICES ====================*/
 .services_container{
   gap: 1.5rem;
@@ -905,10 +851,7 @@ img {
     gap:.5rem;
   }
  
-    .portfolio-nav ul li a{
-      padding: 4px 6px;
-      margin: 0 2px;
-      font-size: 14px;
+  
     
     }
     .project_img{
